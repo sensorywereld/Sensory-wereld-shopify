@@ -1,6 +1,6 @@
 # Agent-skills — inventaris en overdracht
 
-Stand: 17 september 2026. Dit document staat in **elk** van de vier repo's van
+Stand: 21 september 2026. Dit document staat in **elk** van de vier repo's van
 `sensorywereld` en is overal identiek.
 
 Het bestaat om één misverstand te voorkomen bij de overdracht naar Codex of naar
@@ -97,22 +97,25 @@ Codex kent het plugin-systeem van Claude Code niet. Wat je wél kunt doen:
 
 ## 5. Welke repo welk instructiebestand heeft
 
+Codex leest `AGENTS.md`, Claude leest `CLAUDE.md`. Alle vier de repo's gebruiken
+nu hetzelfde patroon: een `CLAUDE.md` van één regel (`@AGENTS.md`) met de echte
+inhoud in `AGENTS.md`, zodat beide agents dezelfde instructies zien en er niets
+op twee plekken uit elkaar kan lopen.
+
 | repo | `CLAUDE.md` | `AGENTS.md` |
 |---|---|---|
-| `bouw365` | 33 regels, de niet-onderhandelbare regels | ⛔ **ontbreekt** |
-| `bouw365-admin` | 1 regel: `@AGENTS.md` | 9 regels (alleen het Next.js-blok) |
-| `collectief-schoonmaak` | 1 regel: `@AGENTS.md` | 9 regels (alleen het Next.js-blok) |
+| `bouw365` | 1 regel: `@AGENTS.md` | de niet-onderhandelbare regels + stack + bouwvolgorde |
+| `bouw365-admin` | 1 regel: `@AGENTS.md` | het Next.js-blok |
+| `collectief-schoonmaak` | 1 regel: `@AGENTS.md` | het Next.js-blok |
 | `Sensory-wereld-shopify` | ⛔ ontbreekt | 360 regels: merk, oprichter, tone of voice, non-negotiables |
 
-⚠ **Het gat dat er het meest toe doet:** `bouw365` — de grootste repo — heeft
-geen `AGENTS.md`. Codex loopt daar dus binnen zonder de regels te zien die in
-`CLAUDE.md` staan: tenant-isolatie op elke tabel, geld altijd als `Decimal`,
-immutable snapshots voor verzonden offertes en facturen, en nooit queryen via
-`DATABASE_URL` (die rol heeft op Neon `BYPASSRLS` en negeert RLS).
+Tot 21-09-2026 had `bouw365` alleen een `CLAUDE.md`. Codex liep die repo dus
+binnen zonder de regels te zien die erin staan: tenant-isolatie op elke tabel,
+geld altijd als `Decimal`, immutable snapshots voor verzonden offertes en
+facturen, en nooit queryen via `DATABASE_URL` (die rol heeft op Neon
+`BYPASSRLS` en negeert RLS). Dat is verholpen door `CLAUDE.md` te hernoemen naar
+`AGENTS.md` en er een verwijzing voor in de plaats te zetten.
 
-De oplossing die in deze repo's al gebruikt wordt, is een `CLAUDE.md` van één
-regel met `@AGENTS.md` erin, en de echte inhoud in `AGENTS.md`. Voor `bouw365`
-betekent dat: `CLAUDE.md` hernoemen naar `AGENTS.md` en er een `CLAUDE.md` met
-`@AGENTS.md` voor in de plaats zetten. **Dat is nog niet gedaan** — het is een
-wijziging aan hoe beide agents de repo binnenkomen en hoort een eigen besluit te
-zijn, geen bijvangst van een inventarisatie.
+`Sensory-wereld-shopify` heeft het omgekeerde en is bewust zo gelaten: daar is
+`AGENTS.md` een inhoudelijk merkdocument, geen technische instructieset, en er
+draait geen Claude Code-werk op dat een `CLAUDE.md` mist.
