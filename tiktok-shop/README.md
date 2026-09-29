@@ -1,7 +1,9 @@
 # TikTok Shop — Sensory Wereld
 
 Startpakket voor TikTok Shop NL met twee producten: **Verzwaringsknuffel Beer** en **Verzwaringsknuffel Konijn**.
-Alles hieronder is gebaseerd op de huidige Shopify-data (opgehaald 29-09-2026). Waar data ontbreekt staat `[TE VALIDEREN]`.
+Gebaseerd op de Shopify-data (29-09-2026) en de leveranciersdocumenten: BOM Sven (4248), BOM Svea (4247) en STC-testrapport SP24070232. Waar data ontbreekt staat `[TE VALIDEREN]`.
+
+> De PDF's zelf staan bewust **niet** in deze repository (vertrouwelijke leveranciersdocumenten; het testrapport mag volgens STC niet zonder toestemming worden verspreid). Upload ze alleen in het TikTok Seller Center bij de productcompliance.
 
 ---
 
@@ -64,14 +66,16 @@ Wanneer gebruik je hem?
 
 Productdetails
 • Gewicht: 2 kg
-• Formaat: ca. 43 cm
-• Materiaal: zacht pluche (buitenkant)
-• Vulling: glazen kralen in uitneembare binnenzak
+• Formaat: ca. 45 × 35 × 15 cm
+• Buitenkant: 100% polyester pluche
+• Vulling: gerecycled polyester + glazen kralen in een uitneembare binnenzak (100% polyester)
+• Ogen: geborduurd, geen plastic onderdelen
 • Wasadvies: buitenkant machinewasbaar, binnenzak niet wassen
 
 Let op
 • Niet geschikt voor kinderen onder 3 jaar
 • Gebruik onder toezicht van een volwassene
+• Getest volgens de Europese speelgoednorm EN 71 (deel 1, 2 en 3)
 
 Zorgvuldig gekozen door Sensory Wereld.
 ```
@@ -79,14 +83,19 @@ Zorgvuldig gekozen door Sensory Wereld.
 **Attributen:**
 | Veld | Waarde |
 |---|---|
-| Merk | Sensory Wereld `[TE VALIDEREN: merk registreren in Seller Center of "Geen merk"]` |
-| Gewicht product | 2 kg |
-| Pakketgewicht | `[TE VALIDEREN — incl. verpakking, waarschijnlijk > 2 kg]` |
-| Pakketafmetingen (L×B×H) | `[TE VALIDEREN]` |
-| Leeftijd | 3+ |
-| Land van herkomst | `[TE VALIDEREN — leeg in Shopify]` |
-| Fabrikant / EU-verantwoordelijke (GPSR) | `[TE VALIDEREN — naam + adres + e-mail]` |
-| Veiligheidsdocumenten | `[TE VALIDEREN — CE-conformiteitsverklaring / EN 71-testrapport van leverancier]` |
+| Merk | **Teddy Care (Teddykompaniet)** — zie sectie 5, eerst beslissen |
+| Leveranciersnaam | Teddy Care Sven Tyngddjur (4248) · Teddy Care Svea Tyngddjur (4247) |
+| Gewicht product | 2 kg (BOM: 2000 g) |
+| Productafmetingen | 45 × 35 × 15 cm (BOM: L 450 / B 350 / H 150 mm) |
+| Pakketgewicht | `[TE VALIDEREN — weeg één verzendklaar pakket]` |
+| Pakketafmetingen (L×B×H) | `[TE VALIDEREN — meet de verzenddoos]` |
+| Leeftijd | 3+ (markering volgens testrapport: "age 3 and up") |
+| Materiaal | 100% polyester; vulling gerecycled polyester + glazen kralen; rits nylon |
+| Land van herkomst | China ✅ (testrapport; nu ook ingevuld in Shopify) |
+| Fabrikant / EU-verantwoordelijke (GPSR) | Teddykompaniet i Båstad AB, Stenhusvägen 2A, 269 36 Båstad, Zweden · e-mail `[TE VALIDEREN]` |
+| Veiligheidsdocument | STC-testrapport SP24070232 (17-07-2024): EN 71-1, EN 71-2, EN 71-3 → **Pass**, beide SKU's |
+| Aanvullend | EU-conformiteitsverklaring (DoC) `[TE VALIDEREN — opvragen bij Teddykompaniet]` |
+| OEKO-TEX | Leverancier noemt nr. 22.HCN.21184 `[TE VALIDEREN op oeko-tex.com vóór gebruik in tekst]` |
 
 ---
 
@@ -116,19 +125,21 @@ Wanneer gebruik je hem?
 
 Productdetails
 • Gewicht: 2 kg
-• Afmetingen: 12 × 22 × 42 cm
-• Materiaal: zacht pluche (buitenkant)
-• Vulling: glazen kralen in uitneembare binnenzak
+• Formaat: ca. 45 × 35 × 15 cm
+• Buitenkant: 100% polyester pluche
+• Vulling: gerecycled polyester + glazen kralen in een uitneembare binnenzak (100% polyester)
+• Neus, ogen en mond: geborduurd, geen plastic onderdelen
 • Wasadvies: buitenkant machinewasbaar, binnenzak niet wassen
 
 Let op
 • Niet geschikt voor kinderen onder 3 jaar
 • Gebruik onder toezicht van een volwassene
+• Getest volgens de Europese speelgoednorm EN 71 (deel 1, 2 en 3)
 
 Zorgvuldig gekozen door Sensory Wereld.
 ```
 
-Attributen: gelijk aan de Beer, met afmetingen 12 × 22 × 42 cm.
+Attributen: gelijk aan de Beer (zelfde BOM-maten, materialen, testrapport en fabrikant).
 
 ⚠️ **Voorraad:** nog 3 stuks en pre-order. Op TikTok kan één video tientallen orders geven. Advies: Konijn pas live zetten als de nieuwe voorraad binnen is, of een voorraadbuffer instellen. Pre-order past slecht bij de verzendtermijnen van TikTok.
 
@@ -140,10 +151,22 @@ Attributen: gelijk aan de Beer, met afmetingen 12 × 22 × 42 cm.
 |---|---|---|
 | "Veel ouders merken dat hun kind sneller kalmeert, beter inslaapt" | Weggelaten | TikTok keurt effect-/gezondheidsclaims streng af; ook merkregel: geen onbewezen claims |
 | "Voor welke kinderen werkt dit?" | "Waarom ouders kiezen voor…" | Geen belofte van werking |
-| "Certificering: CE-gecertificeerd" | Weggelaten tot document aanwezig | TikTok vraagt bij speelgoed om bewijs; eerst document klaarzetten |
+| "Certificering: CE-gecertificeerd" | "Getest volgens EN 71 (deel 1, 2 en 3)" | Dat is precies wat het testrapport aantoont. CE is een verklaring van de fabrikant, geen certificaat |
 | Reviews (Beer 4,83 / 228, Konijn 4,70 / 92) | Niet in tekst | Judge.me-reviews worden niet overgenomen; TikTok bouwt eigen reviews op |
 
 ---
+
+## 5b. Wat de documenten opleverden — en wat ze blootleggen
+
+| Bevinding | Betekenis | Actie |
+|---|---|---|
+| Fabrikant/merk is **Teddykompaniet i Båstad AB** (Zweden), productlijn "Teddy Care" | In Shopify staat "Sensory Wereld" als vendor. Op TikTok is merk verplicht; een ander merk als eigen merk opgeven kan leiden tot verwijdering en schaadt vertrouwen | **Beslissen:** merk "Teddy Care" gebruiken en bij TikTok een merkautorisatie (reseller) uploaden, óf eerst bij Teddykompaniet vragen of verkoop via TikTok Shop is toegestaan |
+| EU-fabrikant zit in Zweden | GPSR-veld is hiermee grotendeels ingevuld | Alleen e-mailadres van Teddykompaniet nog nodig |
+| EN 71-1/2/3 Pass, beide SKU's | Voldoende basis voor de speelgoedcompliance op TikTok | Rapport uploaden in Seller Center |
+| Afmetingen BOM: 45 × 35 × 15 cm | Webshop zegt Beer "ca. 43 cm" en Konijn "12 × 22 × 42 cm" — dat klopt niet met de BOM | Één keer zelf meten en webshop + TikTok gelijktrekken |
+| Leeftijd "3+" bevestigd | Waarschuwing op webshop is correct | Geen actie |
+| Geborduurde ogen/neus, geen plastic | Feitelijk en geruststellend voor ouders | Opgenomen in de TikTok-tekst |
+| Testrapport is van 2024 | Nog geldig zolang product/materialen niet veranderd zijn | Bij Teddykompaniet navragen of er een recentere versie is |
 
 ## 6. Checklist vóór livegang
 
@@ -151,9 +174,12 @@ Attributen: gelijk aan de Beer, met afmetingen 12 × 22 × 42 cm.
 - [ ] Shopify TikTok-app gekoppeld, alleen Beer (en Konijn bij voldoende voorraad) gesynct
 - [ ] Titels en beschrijvingen hierboven ingevoerd
 - [ ] Pakketgewicht en -afmetingen gemeten
-- [ ] Land van herkomst ingevuld (ook in Shopify)
-- [ ] GPSR-gegevens fabrikant/EU-verantwoordelijke ingevuld
-- [ ] CE-conformiteitsverklaring / testrapport opgevraagd bij leverancier
+- [x] Land van herkomst ingevuld in Shopify (China, beide SKU's)
+- [x] EN 71-testrapport aanwezig (SP24070232)
+- [ ] Merkbeslissing: Teddy Care + merkautorisatie van Teddykompaniet
+- [ ] E-mailadres Teddykompaniet voor GPSR-veld
+- [ ] EU-conformiteitsverklaring (DoC) opgevraagd bij Teddykompaniet
+- [ ] Afmetingen nagemeten en webshop gelijkgetrokken
 - [ ] Retour- en verzendbeleid gelijk aan webshop
 - [ ] Eerste testorder geplaatst en afgehandeld
 
