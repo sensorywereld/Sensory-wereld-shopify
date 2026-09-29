@@ -179,7 +179,7 @@ Attributen: gelijk aan de Beer (zelfde BOM-maten, materialen, testrapport en fab
 - [ ] Merkbeslissing: Teddy Care + merkautorisatie van Teddykompaniet
 - [ ] E-mailadres Teddykompaniet voor GPSR-veld
 - [ ] EU-conformiteitsverklaring (DoC) opgevraagd bij Teddykompaniet
-- [ ] Afmetingen nagemeten en webshop gelijkgetrokken
+- [x] Webshop gelijkgetrokken: afmetingen ca. 45 × 35 × 15 cm (BOM) en "Getest volgens EN 71" i.p.v. "CE-gecertificeerd" (29-09-2026)
 - [ ] Retour- en verzendbeleid gelijk aan webshop
 - [ ] Eerste testorder geplaatst en afgehandeld
 
